@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/viewEmpty"
+        layout="@layout/view_state_empty"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <include
+        android:id="@+id/viewLoading"
+        layout="@layout/view_state_loading"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/viewError"
+        layout="@layout/view_state_error"
+        android:visibility="gone" />
+
+</FrameLayout>

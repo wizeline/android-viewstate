@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="offset_small">8dp</dimen>
+    <dimen name="offset_medium">16dp</dimen>
+    <dimen name="empty_state_image_size">120dp</dimen>
+    <dimen name="empty_state_text_width">240dp</dimen>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="empty_state_error_title">Connect to internet</string>
+    <string name="empty_state_error_description">Your offline. Check your connection</string>
+    <string name="empty_state_error_retry">Retry</string>
+    <string name="empty_state_empty_title">Empty list</string>
+    <string name="empty_state_empty_description">There is no items</string>
+    <string name="empty_state_loading">Loading…</string>
+</resources>

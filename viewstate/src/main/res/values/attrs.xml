@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ViewState">
+        <attr name="emptyTitleText" format="string" />
+        <attr name="emptyDescriptionText" format="string" />
+        <attr name="emptyImageResource" format="reference" />
+        <attr name="loadingTitleText" format="string" />
+        <attr name="errorTitleText" format="string" />
+        <attr name="errorDescriptionText" format="string" />
+        <attr name="errorRetryText" format="string" />
+        <attr name="errorImageResource" format="reference" />
+    </declare-styleable>
+</resources>

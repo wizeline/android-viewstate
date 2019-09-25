@@ -1,0 +1,2 @@
+include ':app', ':viewstate'
+rootProject.name='ViewStateSample'
