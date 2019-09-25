@@ -5,7 +5,7 @@
 
 ViewState is an Android user interface element that can be used to hold a simple child with content, this element can be used to give visual feedback to the users, for instance it can be used to notify about the state of a network request.
 
-![Screenshot](sample.gif)
+![Screenshot](Example.gif)
 
 ## Sample Project
 
