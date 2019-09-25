@@ -13,7 +13,7 @@ To run the `View State Sample` project:
 
 1. Clone the repo with the following command:
 
-    `git clone git@github.com:wizeline/WL-Android-ViewState.git`
+    `git clone git@github.com:wizeline/android-viewstate.git`
 
 2. Import the project using Android Studio
 
