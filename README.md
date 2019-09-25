@@ -1,9 +1,6 @@
 
 ## ViewState
 
-[![JitPack](https://jitpack.io/v/wizeline/android-viewstate.svg)](https://jitpack.io/#wizeline/android-viewstate) 
-[![CircleCI](https://circleci.com/gh/wizeline/android-viewstate.svg?style=svg)](https://circleci.com/gh/wizeline/android-viewstate)
-
 ViewState is an Android user interface element that can be used to hold a simple child with content, this element can be used to give visual feedback to the users, for instance it can be used to notify about the state of a network request.
 
 ![Screenshot](Example.gif)
@@ -19,23 +16,6 @@ To run the `View State Sample` project:
 2. Import the project using Android Studio
 
     `Run the app `
-
-## Download
-
-Gradle
-```
-allprojects {
-    repositories {
-        maven { url 'https://jitpack.io' }
-    }
-}
-```
-
-```
-dependencies {
-    implementation 'com.github.wizeline:android-viewstate:1.0'
-}
-```
 
 ## Usage
 
