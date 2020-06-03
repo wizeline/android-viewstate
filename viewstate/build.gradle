@@ -5,13 +5,15 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
-    compileSdkVersion 29
-    defaultConfig {
-        minSdkVersion 16
-        targetSdkVersion 29
-        versionCode 1
-        versionName "1.0"
+    compileSdkVersion sdk.compile
 
+    defaultConfig {
+        minSdkVersion sdk.min
+        targetSdkVersion sdk.target
+        versionCode 2
+        versionName "1.0.1"
+
+        vectorDrawables.useSupportLibrary = true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles 'consumer-rules.pro'
     }
@@ -26,13 +28,16 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    
+
     // Kotlin
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation 'androidx.core:core-ktx:1.1.0'
+    implementation libraries.kotlin
+
+    // Android
+    implementation libraries.androidx.ktx
+    implementation libraries.androidx.appcompat
 
     // Testing
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'androidx.test:runner:1.2.0'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    testImplementation libraries.junit
+    androidTestImplementation libraries.runner
+    androidTestImplementation libraries.espressoCore
 }

@@ -1,0 +1,39 @@
+ext {
+    sdk = [
+        compile: 29,
+        min: 16,
+        target: 29
+    ]
+    kotlinVersion = "1.3.72"
+
+    // Android libraries
+    appcompatVersion = "1.1.0"
+    ktxVersion = "1.3.0"
+    recyclerVersion = "1.1.0"
+
+    // Test
+    coreTestingVersion = "2.0.1"
+    runnerVersion = "1.1.1"
+    espressoVersion = '3.2.0'
+    junitVersion = '4.13'
+    junitExtVersion = '1.1.1'
+
+    // Implementations
+    libraries = [
+            kotlin: "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${kotlinVersion}",
+        // Test
+        junit: "junit:junit:${junitVersion}",
+        runner: "androidx.test:runner:${runnerVersion}",
+        espressoCore: "androidx.test.espresso:espresso-core:${espressoVersion}",
+        extJunit: "androidx.test.ext:junit:${junitExtVersion}",
+        extJunitKotlin: "androidx.test.ext:junit-ktx:${junitExtVersion}",
+        espressoIntents: "androidx.test.espresso:espresso-intents:${espressoVersion}",
+            testing: "androidx.arch.core:core-testing:$coreTestingVersion",
+        // Android libraries
+        androidx: [
+                ktx: "androidx.core:core-ktx:$ktxVersion",
+            appcompat: "androidx.appcompat:appcompat:${appcompatVersion}",
+            recyclerView: "androidx.recyclerview:recyclerview:${recyclerVersion}"
+        ]
+    ]
+}
