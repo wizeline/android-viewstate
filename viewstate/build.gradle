@@ -35,6 +35,7 @@ dependencies {
     // Android
     implementation libraries.androidx.ktx
     implementation libraries.androidx.appcompat
+    implementation libraries.material.material
 
     // Testing
     testImplementation libraries.junit
