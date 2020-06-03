@@ -35,7 +35,7 @@
 
     <Button
         android:id="@+id/errorRetry"
-        style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
+        style="@style/Button.Borderless.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/empty_state_error_retry"
