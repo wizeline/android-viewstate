@@ -18,6 +18,8 @@ ext {
     espressoVersion = '3.2.0'
     junitVersion = '4.13'
     junitExtVersion = '1.1.1'
+    testVersion = "1.0.0"
+    robolectricVersion = "4.4"
 
     // Implementations
     libraries = [
@@ -30,6 +32,9 @@ ext {
         extJunitKotlin: "androidx.test.ext:junit-ktx:${junitExtVersion}",
         espressoIntents: "androidx.test.espresso:espresso-intents:${espressoVersion}",
             testing: "androidx.arch.core:core-testing:$coreTestingVersion",
+            testCore: "androidx.test:core:$testVersion",
+            rules: "androidx.test:rules:$testVersion",
+            robolectric: "org.robolectric:robolectric:$robolectricVersion",
         // Android libraries
         androidx: [
                 ktx: "androidx.core:core-ktx:$ktxVersion",

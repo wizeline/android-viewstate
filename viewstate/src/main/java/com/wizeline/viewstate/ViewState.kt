@@ -124,7 +124,7 @@ class ViewState @JvmOverloads constructor(
      * Sets the error button text
      */
     fun setErrorRetryText(title: String) {
-        errorTitle.text = title
+        errorRetry.text = title
     }
 
     /**
